@@ -14,4 +14,4 @@ class MeiziItem(scrapy.Item):
     title = scrapy.Field()
     next = scrapy.Field()
     detail_url = scrapy.Field()
-    pass
+    meizi = scrapy.Field()
